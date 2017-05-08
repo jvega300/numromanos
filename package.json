@@ -1,0 +1,30 @@
+{
+  "name": "funcion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jasmine-node spec"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "author": "jv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jasmine-node": "^1.14.5",
+    "open": "0.0.5",
+    "request": "^2.81.0"
+  },
+  "spec_dir": "spec",
+  "spec_files": [
+    "appSpec.js",
+    "requests/**/*[sS]pec.js",
+    "utils/**/*[sS]pec.js"
+  ],
+  "helpers": [
+    "helpers/**/*.js"
+  ]
+}
